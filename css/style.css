@@ -1,0 +1,79 @@
+/* NAVBAR */
+.nav-menu {
+  transition: all .7s;
+}
+.nav-menu li a {
+	color: #fff;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	margin-left: 20px;
+	transition: all .7s;
+}
+.custom-navbar li a {
+	font-size: 1rem;
+
+}
+.custom-navbar {
+	background: rgba(0,0,0,0.7);
+}
+.custom-navbar .logo img {
+	max-width: 40px;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	max-width: 60px;
+	transition: all .7s;
+}
+.logo-label {
+	color: #fff;
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.logo-label-2 {
+	color: green;
+}
+/* BANNIERE */
+.home-top-banner:before {
+	content: "";
+	background-image: url(../img/dot.png);
+	background-color: rgba(0,0,0, 0.18);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	box-sizing: border-box;
+}
+.home-top-banner {
+	background: url(../img/banner-1.jpg) no-repeat top left;
+	background-size: 100% auto;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0 40px;
+}
+.home-top-banner h1 {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.home-top-banner h2 {
+	text-transform: uppercase;
+	margin: 30px 0;
+}
+/* CONTENU */
+.color-perso-1, .color-perso-2, .color-perso-3 {
+	text-align: center;
+	color: #fff;
+}
+.color-perso-1 {
+	background: red;
+}
+.color-perso-2 {
+	background: green;
+}
+.color-perso-3 {
+	background: purple;
+}
